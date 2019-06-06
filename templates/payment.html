@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<div class="jumbotron">
+	<div class="lead">
+		<h2>Pay and Get Diagnosis</h2>
+		<p>You can easily get your diagnosis by paying $4 only! Try out now!!</p>
+		<form action="{{ url_for('pay') }}" method="POST">
+			<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+					data-key="{{ pub_key }}"
+					data-amount="400"
+					data-name="Medicate AI"
+					data-description="Payment Gateway"
+					data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+					data-locale="auto">
+			</script>
+		</form>
+	</div>
+</div>
+</body>
+</html>

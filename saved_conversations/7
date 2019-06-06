@@ -1,0 +1,13 @@
+bot : Hi There! I am a medical chatbot
+user : hi
+bot : - Hello. How are you feeling today?
+user : tired
+bot : - hi. How are you feeling today?
+user : i am feeling tired
+bot : - good to know. how may i assist you then?
+user : I have fever
+bot : - what kind of headache do you have : 1. Migrane headache - intense throbbing pain on just one side of the head. 2. Cluster headaches - severe and recurrent headaches 3. Tension Headache - Ocassional;
+user : I have chest pain
+bot : - Okay, this is a symptom of cough , do you have cough?
+user : yes
+bot : - Bye. Nice talking to you
